@@ -1,0 +1,28 @@
+.img-bg{
+    background-image: url(../IMG/woody-kelly-Q9JiM_k2ca4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    height: 1000px;
+}
+.Formulario{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    font-size: 25px;
+    color: rgb(187, 238, 238);
+}
+.blanco{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: black;
+    width: 45%;
+   
+}
+.bg-opa{
+    opacity: 0.5;
+}
+.sinop{
+    opacity: 100%!important;
+}
