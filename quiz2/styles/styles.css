@@ -1,0 +1,71 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.tit-1{
+    color: cornflowerblue;
+    font-size: 40px;
+    text-align: center;
+}
+.img{
+    background-image: url(../IMG/hpta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+.bg-white{
+    background-color: cornsilk;
+    
+}
+.form-container{
+    width: 30%;
+    padding: 4rem;
+    border-radius: 1rem;
+    /*display: flex;
+    justify-content: center;
+    flex-direction: column;*/
+}
+.input-container{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin:6px;
+}
+.input-container input{
+    border-radius: 0.4rem;
+    border: solid 0,1rem gray;
+    padding: 0,4rem;
+    margin-top: 0.2rem;
+}
+.check-container{
+    margin-top: 0.5rem;
+}
+.submit{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border: 0 solid transparent;
+    border-radius: 10px;
+   
+}
+.submit-container{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    transition: background-color 0.5s;
+    transition: padding 0.5s;
+    transition: font-size 0.5s;
+}
+.submit-container button:hover{
+    background-color: rgb(78, 245, 100);
+    padding: 20px;
+    font-size: 20px;
+}
+.screen-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    height: 100vh;
+}
